@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.famcinematic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:8:5-28:19
+15        android:allowBackup="true"
+15-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:10:9-65
+18        android:fullBackupContent="@xml/backup_rules"
+18-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:11:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:13:9-41
+21        android:supportsRtl="true"
+21-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:14:9-35
+22        android:theme="@style/Theme.FamCinematic" >
+22-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:15:9-50
+23        <activity
+23-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:17:9-27:20
+24            android:name="com.example.famcinematic.MainActivity"
+24-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:18:13-41
+25            android:exported="true"
+25-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:19:13-36
+26            android:label="@string/app_name"
+26-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:20:13-45
+27            android:theme="@style/Theme.FamCinematic.NoActionBar" >
+27-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:21:13-66
+28            <intent-filter>
+28-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:22:13-26:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:23:17-69
+29-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:23:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:17-77
+31-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
