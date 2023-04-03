@@ -63,7 +63,7 @@ public class RateModeActivity extends Activity {
                                                 int emptyCellCount = 0;
 
                                                 for (int i = 0; i < sheet.getRows(); i++) {
-                                                    Cell cell = sheet.getCell(2, i);
+                                                    Cell cell = sheet.getCell(24, i);
                                                     if (cell == null || cell.getContents().isEmpty()) {
                                                         emptyCellCount++;
 
