@@ -1,1 +1,0 @@
-Currently doesn't have all files, similar to Directory Transcriber, as some are hidden or too large. All necessary imports are included here.

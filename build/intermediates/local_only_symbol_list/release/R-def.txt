@@ -38,6 +38,7 @@ layout fragment_second
 layout rate_activity_movie
 menu menu_main
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation nav_graph
 string action_settings
