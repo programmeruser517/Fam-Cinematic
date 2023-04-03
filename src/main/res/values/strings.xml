@@ -9,4 +9,8 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--Strings used for fragments for Rate and Pick Mode Outlines -->
+    <string name="rate_mode_title">Rate Mode</string>
+    <string name="pick_mode_title">Pick Mode</string>
 </resources>

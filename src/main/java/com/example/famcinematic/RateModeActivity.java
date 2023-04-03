@@ -35,8 +35,6 @@ public class RateModeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rate_mode);
 
-        checkPermissions();
-
         EditText directoryPathEditText = findViewById(R.id.directory_path_edit_text);
 
         submitButton = findViewById(R.id.submit_button);
@@ -102,38 +100,5 @@ public class RateModeActivity extends Activity {
 
         });
         }
-
-    //checker for method page onClick
-    private void checkPermissions() {
-        int readPermission = 0;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            readPermission = checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE);
-        }
-        int writePermission = 0;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            writePermission = checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE);
-        }
-
-        if (readPermission != PackageManager.PERMISSION_GRANTED || writePermission != PackageManager.PERMISSION_GRANTED) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSIONS_REQUEST_CODE);
-            }
-        } else {
-            Toast.makeText(this, "Storage permission granted", Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    //invoked via Android system, needed for system storage via Manifest
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        if (requestCode == PERMISSIONS_REQUEST_CODE) {
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Storage permission granted", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, "Storage permission denied", Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
-
 
 }

@@ -18,7 +18,7 @@
 12-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:6:22-78
 13
 14    <application
-14-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:8:5-28:19
+14-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:8:5-57:19
 15        android:allowBackup="true"
 15-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
@@ -36,26 +36,68 @@
 22        android:theme="@style/Theme.FamCinematic" >
 22-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:15:9-50
 23        <activity
-23-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:17:9-27:20
+23-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:18:9-29:20
 24            android:name="com.example.famcinematic.MainActivity"
-24-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:18:13-41
+24-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:19:13-41
 25            android:exported="true"
-25-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:19:13-36
+25-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:20:13-36
 26            android:label="@string/app_name"
-26-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:20:13-45
+26-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:21:13-45
 27            android:theme="@style/Theme.FamCinematic.NoActionBar" >
-27-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:21:13-66
+27-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:22:13-66
 28            <intent-filter>
-28-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:22:13-26:29
+28-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:24:13-27:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:23:17-69
-29-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:23:25-66
+29-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:17-69
+29-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:17-77
-31-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:27-74
+31-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:26:17-77
+31-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:26:27-74
 32            </intent-filter>
 33        </activity>
-34    </application>
-35
-36</manifest>
+34        <activity
+34-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:31:9-42:20
+35            android:name="com.example.famcinematic.RateModeActivity"
+35-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:32:13-45
+36            android:exported="true"
+36-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:33:13-36
+37            android:label="@string/rate_mode_title"
+37-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:34:13-52
+38            android:theme="@style/Theme.FamCinematic" >
+38-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:35:13-54
+39            <intent-filter>
+39-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:37:13-40:29
+40                <action android:name="com.example.famcinematic.RATE_MODE" />
+40-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:38:17-77
+40-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:38:25-74
+41
+42                <category android:name="android.intent.category.DEFAULT" />
+42-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:39:17-76
+42-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:39:27-73
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:44:9-55:20
+46            android:name="com.example.famcinematic.PickModeActivity"
+46-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:45:13-45
+47            android:exported="true"
+47-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:46:13-36
+48            android:label="@string/pick_mode_title"
+48-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:47:13-52
+49            android:theme="@style/Theme.FamCinematic" >
+49-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:48:13-54
+50            <intent-filter>
+50-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:50:13-53:29
+51                <action android:name="com.example.famcinematic.PICK_MODE" />
+51-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:51:17-77
+51-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:51:25-74
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:39:17-76
+53-->C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:39:27-73
+54            </intent-filter>
+55        </activity>
+56    </application>
+57
+58</manifest>

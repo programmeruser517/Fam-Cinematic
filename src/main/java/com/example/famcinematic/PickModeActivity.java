@@ -1,4 +1,7 @@
 package com.example.famcinematic;
 
-public class PickModeActivity {
+import android.app.Activity;
+
+public class PickModeActivity extends Activity{
+    //nothing yet, for build stability
 }

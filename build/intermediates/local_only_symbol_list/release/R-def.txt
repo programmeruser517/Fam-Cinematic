@@ -47,7 +47,9 @@ string first_fragment_label
 string hello_first_fragment
 string hello_second_fragment
 string next
+string pick_mode_title
 string previous
+string rate_mode_title
 string second_fragment_label
 style Theme.FamCinematic
 style Theme.FamCinematic.AppBarOverlay

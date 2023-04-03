@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [com.android.databinding:viewbinding:7.4.2] C:\Users\Peter Pena\.gradle\caches\transforms-3\bc06533322182f71e0782f31a0fe9ee8\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c754b2cc2b7b728cba3988e7b7bc775a\transformed\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:17:1-24:12
@@ -40,22 +40,22 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter Pena\.gradl
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\a53d9506ae4dacb055d43639ef5bb2b9\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\8685e06f4e5777f3b1c280be6231fd18\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d7f073c16ca3baa38c501851e8255cb7\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
 		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:2:11-69
@@ -68,7 +68,7 @@ ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\A
 	android:name
 		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:8:5-28:19
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:8:5-57:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter Pena\.gradle\caches\transforms-3\314c9faa7cd2f445aed8999caa4aba56\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
@@ -96,25 +96,61 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter Pena
 	android:dataExtractionRules
 		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:10:9-65
 activity#com.example.famcinematic.MainActivity
-ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:17:9-27:20
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:18:9-29:20
 	android:label
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:20:13-45
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:21:13-45
 	android:exported
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:21:13-66
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:22:13-66
 	android:name
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:18:13-41
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.famcinematic.RateModeActivity
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:31:9-42:20
+	android:label
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:34:13-52
+	android:exported
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:33:13-36
+	android:theme
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:35:13-54
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:32:13-45
+intent-filter#action:name:com.example.famcinematic.RATE_MODE+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:37:13-40:29
+action#com.example.famcinematic.RATE_MODE
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:38:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:39:27-73
+activity#com.example.famcinematic.PickModeActivity
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:44:9-55:20
+	android:label
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:47:13-52
+	android:exported
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:46:13-36
+	android:theme
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:48:13-54
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:45:13-45
+intent-filter#action:name:com.example.famcinematic.PICK_MODE+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:50:13-53:29
+action#com.example.famcinematic.PICK_MODE
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml:51:25-74
 uses-sdk
 INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\FamCinematic\app\src\main\AndroidManifest.xml
